@@ -42,7 +42,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: npm run build
+        run: npm run build -- --site "https://msankhala.github.io/urban-panchhi" --base "/urban-panchhi/"
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

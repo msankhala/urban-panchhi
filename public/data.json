@@ -191,37 +191,37 @@
   ],
   "categories": [
     {
-      "thumb_src": "../images/carpet/carpet.jpg",
+      "thumb_src": "images/carpet/carpet.jpg",
       "title": "Carpet",
       "collection": "Home-Decor"
     },
     {
-      "thumb_src": "../images/tapestry/Sunset-Tapestry.webp",
+      "thumb_src": "images/tapestry/Sunset-Tapestry.webp",
       "title": "Tapestry",
       "collection": "Home-Decor"
     },
     {
-      "thumb_src": "../images/cushion-cover/cushion-cover.jpg",
+      "thumb_src": "images/cushion-cover/cushion-cover.jpg",
       "title": "Cushion Cover",
       "collection": "Home-Decor"
     },
     {
-      "thumb_src": "../images/category4.jpg",
+      "thumb_src": "images/category4.jpg",
       "title": "Showroom",
       "collection": "Sale"
     },
     {
-      "thumb_src": "../images/product10.jpg",
+      "thumb_src": "images/product10.jpg",
       "title": "Living Sofas",
       "collection": "Interior Design"
     },
     {
-      "thumb_src": "../images/category5.jpg",
+      "thumb_src": "images/category5.jpg",
       "title": "Chairs by Designers",
       "collection": "Sale"
     },
     {
-      "thumb_src": "../images/product9.jpg",
+      "thumb_src": "images/product9.jpg",
       "title": "Home care",
       "collection": "Products"
     }

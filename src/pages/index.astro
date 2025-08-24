@@ -80,7 +80,7 @@ data.orders.forEach((order) => {
     <PromoSectionLarge
       title={"Urban Panchhi"}
       full_description={"A unique home decore collection."}
-      pageHeaderBgImg={"../images/banners/tapestry-banner.jpg"}
+      pageHeaderBgImg={`${import.meta.env.BASE_URL}images/banners/tapestry-banner.jpg`}
       pageHeaderMinVh="90vh"
     />
     <div class="container my-5">
@@ -98,6 +98,7 @@ data.orders.forEach((order) => {
                 thumb_src={category.thumb_src}
                 collection={category.collection}
                 title={category.title}
+                classList=""
               />
             </div>
           ))

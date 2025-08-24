@@ -1,0 +1,1 @@
+full_description={data.products[0].full_description}

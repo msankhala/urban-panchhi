@@ -191,17 +191,17 @@
   ],
   "categories": [
     {
-      "thumb_src": "../images/category1.jpg",
+      "thumb_src": "../images/carpet/carpet.jpg",
       "title": "Carpet",
       "collection": "Home-Decor"
     },
     {
-      "thumb_src": "../images/category2.jpg",
+      "thumb_src": "../images/tapestry/Sunset-Tapestry.webp",
       "title": "Tapestry",
       "collection": "Home-Decor"
     },
     {
-      "thumb_src": "../images/category3.jpg",
+      "thumb_src": "../images/cushion-cover/cushion-cover.jpg",
       "title": "Cushion Cover",
       "collection": "Home-Decor"
     },

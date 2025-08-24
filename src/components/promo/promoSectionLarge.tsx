@@ -26,8 +26,8 @@ export default function TestimonialsFade({
     <>
       <section className="mb-8">
         <div className="page-header py-5 py-md-0" style={styles.pageHeader}>
-          {/* <span className="mask bg-black opacity-6"></span> */}
-          <span className="mask opacity-6"></span>
+          <span className="mask bg-black opacity-5"></span>
+          {/* <span className="mask opacity-6"></span> */}
           <div className="container">
             <div className="row justify-content-center">
               <div className="col-lg-8 col-sm-9 text-center mx-auto">

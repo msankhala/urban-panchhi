@@ -3,6 +3,8 @@ import Layout from "../layouts/Layout.astro";
 import data from "../../public/data.json";
 import "../../assets/scss/astro-ecommerce.scss";
 import Navbar from "../components/navbar";
+// import NavbarSPA from "../components/Nav";
+// import App from "../components/app";
 import ComplexNavbar from "../components/complexNavbar";
 import ComplexNavbarDark from "../components/complexNavbarDark";
 import Footer from "../components/footer";
@@ -28,6 +30,7 @@ import OrderSummaries from "../components/order/orderSummaries";
 import OrderHistory from "../components/order/orderHistory";
 import IncentiveLarge from "../components/incentives/incentiveLarge";
 import IncentiveCols from "../components/incentives/incentiveCols";
+import UrbanSplide from "../urbansplide/urban-splide.astro";
 
 let cartItems = [];
 data.shoppingCart.map((id) =>
@@ -71,18 +74,20 @@ data.orders.forEach((order) => {
     e.target.classList.toggle("text-danger");
   }
 
-  document.getElementById("heart1").addEventListener("click", toggleHeart);
+  // document.getElementById("heart1").addEventListener("click", toggleHeart);
 </script>
 
-<Layout title="Urban Panchhi">
+<Layout title="Urban Panchhi" , description="A Unique Home Decor Collection.">
   <main>
     <Navbar />
-    <PromoSectionLarge
-      title={"Urban Panchhi"}
-      full_description={"A unique home decore collection."}
+
+    <!-- <PromoSectionLarge
+      title={""}
+      full_description={""}
       pageHeaderBgImg={`${import.meta.env.BASE_URL}images/banners/tapestry-banner.jpg`}
       pageHeaderMinVh="90vh"
-    />
+    /> -->
+    <UrbanSplide />
     <div class="container my-5">
       <div class="d-block text-center mb-5">
         <h3>Shop by category</h3>
@@ -99,6 +104,7 @@ data.orders.forEach((order) => {
                 collection={category.collection}
                 title={category.title}
                 classList=""
+                cta={category.cta}
               />
             </div>
           ))

@@ -1,0 +1,51 @@
+---
+// Copyright (c) Pascal Brand
+// MIT License
+
+// Splide configuration  -  require npm install astro-splide
+import "@splidejs/splide/css";
+import { Splide, SplideTrack, SplideSlide } from "astro-splide";
+import type { Options } from "@splidejs/splide";
+
+// Misc import for this demo
+import "./style.css";
+import { imgUrls } from "./imgUrls";
+
+const options: Options = {
+  type: "loop",
+  gap: "1rem",
+  interval: 5000,
+  autoplay: true,
+  pauseOnHover: true,
+  resetProgress: false,
+  height: "43rem",
+};
+---
+
+<Splide
+  class="not-content"
+  options={options}
+  aria-labelledby="autoplay-example-heading"
+  hasTrack={false}
+>
+  <div style={{ position: "relative" }}>
+    <SplideTrack>
+      {
+        imgUrls.map((url) => (
+          <SplideSlide>
+            <img src={url} alt="" />
+          </SplideSlide>
+        ))
+      }
+    </SplideTrack>
+  </div>
+
+  <div class="splide__progress">
+    <div class="splide__progress__bar"></div>
+  </div>
+
+  <!-- <button class="splide__toggle">
+    <span class="splide__toggle__play">Play</span>
+    <span class="splide__toggle__pause">Pause</span>
+  </button> -->
+</Splide>

@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg blur border-radius-sm top-0 z-index-3 shadow position-sticky py-3 start-0 end-0">
+    <nav className="navbar navbar-expand-lg blur border-radius-sm top-0 z-index-3 shadow position-sticky py-3 start-0 end-0" >
       <div className="container px-1">
         <a className="navbar-brand font-weight-bolder ms-lg-0 " href="/">
           <img src={"../images/logo.png"} className="avatar  me-3 " alt="user image" />
@@ -41,8 +41,8 @@ const Navbar = () => {
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="/cushion-cover">
-                Cushion Cover
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="/cushion">
+                Cushion
                 {/* <i className="fab text-lg fa-github">Cushions</i> */}
               </a>
             </li>

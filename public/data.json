@@ -153,6 +153,7 @@
       "colors": ["SpaceGray"],
       "title": "Premium Suit",
       "description": "There’s nothing I really wanted to do in life that I wasn’t able to get good at.",
+      "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
       "price": 1399,
       "size": "Large",
       "sizes": {
@@ -177,6 +178,7 @@
       "color": "Blue",
       "title": "iPhone",
       "description": "That’s the main thing people are controlled by! Thoughts- their perception of themselves!",
+      "full_description": "The 6-Pack includes two black, two white, and two heather gray Basic Tees. Sign up for our subscription service and be the first to get new, exciting colors, like our upcoming `Charcoal Gray` limited release.",
       "price": 1599,
       "size": "Small",
       "sizes": {
@@ -193,17 +195,20 @@
     {
       "thumb_src": "images/carpet/carpet.jpg",
       "title": "Carpet",
-      "collection": "Home-Decor"
+      "collection": "",
+      "cta": "/carpet"
     },
     {
-      "thumb_src": "images/tapestry/Sunset-Tapestry.webp",
+      "thumb_src": "images/tapestry/tapestry.jpg",
       "title": "Tapestry",
-      "collection": "Home-Decor"
+      "collection": "",
+      "cta": "/tapestry"
     },
     {
-      "thumb_src": "images/cushion-cover/cushion-cover.jpg",
-      "title": "Cushion Cover",
-      "collection": "Home-Decor"
+      "thumb_src": "images/cushion/cushion.jpg",
+      "title": "Cushion",
+      "collection": "",
+      "cta": "/cushion"
     },
     {
       "thumb_src": "images/category4.jpg",

@@ -34,7 +34,7 @@ export default function TestimonialsFade({
                 <h1 className="text-white mb-4">{title}</h1>
                 {/* <p className="lead text-white mb-sm-6 mb-4">{full_description}</p> */}
                 <p className="lead text-white mb-sm-6 mb-4">{full_description}</p>
-                <button className="btn btn-white btn-lg">Explore Our Collection</button>
+                {/* <button className="btn btn-white btn-lg">Explore Our Collection</button> */}
               </div>
             </div>
           </div>

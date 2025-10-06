@@ -11,15 +11,19 @@
     "astro": "astro"
   },
   "dependencies": {
-    "@astrojs/react": "^4.2.2",
-    "@types/react": "^18.0.21",
-    "@types/react-dom": "^18.0.6",
+    "@astrojs/node": "^9.4.4",
+    "@astrojs/react": "^4.4.0",
+    "@splidejs/splide": "^4.1.4",
+    "@types/react": "^19.2.0",
+    "@types/react-dom": "^19.2.0",
     "astro": "^5.5.5",
+    "astro-splide": "^2.0.1",
     "forward-ref": "^1.0.0",
     "json-server": "^0.17.0",
-    "react": "^18.2.0",
+    "react": "^19.2.0",
     "react-bootstrap": "^2.6.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^19.2.0",
+    "react-router-dom": "^7.9.3"
   },
   "devDependencies": {
     "sass": "^1.55.0"

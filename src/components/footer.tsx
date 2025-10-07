@@ -7,13 +7,13 @@ export default function Footer() {
             <div className="copyright text-center text-sm text-muted text-lg-start">
               Copyright ©{" "}
               <script>document.write(new Date().getFullYear())</script>
-              &nbsp;Astro Ecommerce by 
+              &nbsp; 
               <a
-                href="https://www.creative-tim.com"
+                href="/"
                 className="text-dark ms-1"
-                target="_blank"
+                // target="_blank"
               >
-                Creative Tim
+                Urban Panchhi
               </a>
               .
             </div>
@@ -22,38 +22,29 @@ export default function Footer() {
             <ul className="nav nav-footer justify-content-center justify-content-lg-end">
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com"
+                  href="/"
                   className="nav-link text-sm text-muted"
-                  target="_blank"
+                  // target="_blank"
                 >
-                  Creative Tim
+                  Home
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/presentation"
+                  href="/about"
                   className="nav-link text-sm text-muted"
-                  target="_blank"
+                  // target="_blank"
                 >
                   About Us
                 </a>
               </li>
               <li className="nav-item">
                 <a
-                  href="https://www.creative-tim.com/blog"
-                  className="nav-link text-sm text-muted"
-                  target="_blank"
-                >
-                  Blog
-                </a>
-              </li>
-              <li className="nav-item">
-                <a
-                  href="https://www.creative-tim.com/license"
+                  href=""
                   className="nav-link text-sm pe-0 text-muted"
                   target="_blank"
                 >
-                  License
+                  Contact Us
                 </a>
               </li>
             </ul>

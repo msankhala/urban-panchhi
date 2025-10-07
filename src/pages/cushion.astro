@@ -2,6 +2,7 @@
 import Layout from "../layouts/Layout.astro";
 import data from "../../public/data.json";
 import "../../assets/scss/astro-ecommerce.scss";
+import CardProduct from "../components/products/cardProduct";
 import CardCategory from "../components/products/cardCategory";
 import ProductFeature from "../components/products/productFeature";
 import Navbar from "../components/navbar";
@@ -13,13 +14,33 @@ import PromoSectionLarge from "../components/promo/promoSectionLarge";
 <Layout title="Cushion">
   <main>
     <Navbar />
-    <PromoSectionLarge
+    <!-- <PromoSectionLarge
       title={"Cushion"}
       full_description={""}
-      pageHeaderBgImg={"../images/bg2.jpg"}
+      pageHeaderBgImg={"../images/cushion/cushion.jpg"}
       pageHeaderMinVh="90vh"
-    />
+    /> -->
     <div class="container my-5">
+      <h3>Cushions</h3>
+      <p>Explore our unique collection of cushions.</p>
+      <div class="row mt-5">
+        {
+          data.products.map((product) => (
+            <div class="col-md-6 col-lg-3">
+              <CardProduct
+                thumb_src={product.thumb_src}
+                thumb_alt={product.thumb_alt}
+                color={product.color}
+                colors={product.colors}
+                title={product.title}
+                description={product.description}
+                price={product.price}
+                position="center"
+              />
+            </div>
+          ))
+        }
+      </div>
       <!-- <PromoSectionLarge 
       title="Basic Starter Pack"
       full_description={data.products[0].full_description} 

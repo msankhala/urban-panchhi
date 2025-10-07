@@ -20,6 +20,11 @@ const Navbar = () => {
                 Home
               </a>
             </li>
+            {/* <li className="nav-item">
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="index" href="/products">
+                Products
+              </a>
+            </li> */}
             <li className="nav-item">
               <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="/carpet/">
                 Carpet

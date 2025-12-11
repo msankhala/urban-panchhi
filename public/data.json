@@ -200,7 +200,7 @@
       "title": "Luxury Carpet",
       "description": "A luxurious carpet that adds elegance to any room.",
       "full_description": "This luxury carpet is made from the finest materials and is designed to last. Its rich colors and soft texture make it a perfect addition to your home.",
-      "price": 2999,
+      "price": "coming soon",
       "size": "Large",
       "sizes": {
         "XS": 0,
@@ -219,7 +219,7 @@
       "title": "Modern Carpet",
       "description": "A modern carpet that brings a contemporary touch to your space.",
       "full_description": "This modern carpet features a sleek design and is made from durable materials. Its neutral tones make it easy to match with any decor.",
-      "price": 2499,
+      "price": "coming soon",
       "size": "Medium",
       "sizes": {
         "XS": 0,
@@ -238,7 +238,7 @@
       "title": "Cozy Carpet",
       "description": "A cozy carpet that adds warmth and comfort to your home.",
       "full_description": "This cozy carpet is made from soft, plush materials that feel great underfoot. Its warm colors and inviting texture make it a perfect choice for any room.",
-      "price": 1999,
+      "price": "coming soon",
       "size": "Small",
       "sizes": {
         "XS": 0,
@@ -257,7 +257,7 @@
       "title": "Vintage Carpet",
       "description": "A vintage carpet that brings a touch of nostalgia to your space.",
       "full_description": "This vintage carpet features a classic design and is made from high-quality materials. Its rich colors and intricate patterns make it a standout piece in any room.",
-      "price": 3499,
+      "price": "coming soon",
       "size": "Large",
       "sizes": {
         "XS": 0,
@@ -278,7 +278,7 @@
       "title": "Abstract Tapestry",
       "description": "A stunning tapestry that adds a touch of artistry to your walls.",
       "full_description": "This abstract tapestry is made from high-quality materials and features a unique design that will enhance any room.",
-      "price": 1999,
+      "price": "coming soon",
       "size": "Medium",
       "sizes": {
         "XS": 0,
@@ -297,7 +297,7 @@
       "title": "Nature Tapestry",
       "description": "A beautiful tapestry that brings the outdoors inside.",
       "full_description": "This nature tapestry features a serene design and is made from durable materials. Its vibrant colors make it a perfect addition to your home.",
-      "price": 1799,
+      "price": "coming soon",
       "size": "Large",
       "sizes": {
         "XS": 0,
@@ -316,7 +316,7 @@
       "title": "Geometric Tapestry",
       "description": "A modern tapestry that adds a contemporary touch to your walls.",
       "full_description": "This geometric tapestry is made from high-quality materials and features a sleek design that will enhance any room.",
-      "price": 1599,
+      "price": "coming soon",
       "size": "Small",
       "sizes": {
         "XS": 0,
@@ -335,7 +335,7 @@
       "title": "Bohemian Tapestry",
       "description": "A bohemian tapestry that adds a free-spirited vibe to your space.",
       "full_description": "This bohemian tapestry features a vibrant design and is made from durable materials. Its rich colors and intricate patterns make it a standout piece in any room.",
-      "price": 2199,
+      "price": "coming soon",
       "size": "Large",
       "sizes": {
         "XS": 0,
@@ -356,7 +356,7 @@
       "title": "Abstract Cushion",
       "description": "A beautiful cushion that adds a pop of color to your space.",
       "full_description": "This abstract cushion is made from high-quality materials and features a unique design that will enhance any room.",
-      "price": 999,
+      "price": "coming soon",
       "size": "Medium",
       "sizes": {
         "XS": 0,
@@ -375,7 +375,7 @@
       "title": "Floral Cushion",
       "description": "A floral cushion that brings a touch of nature to your home.",
       "full_description": "This floral cushion features a vibrant design and is made from durable materials. Its rich colors make it a perfect addition to your space.",
-      "price": 899,
+      "price": "coming soon",
       "size": "Small",
       "sizes": {
         "XS": 0,
@@ -394,7 +394,7 @@
       "title": "Geometric Cushion",
       "description": "A modern cushion that adds a contemporary touch to your space.",
       "full_description": "This geometric cushion is made from high-quality materials and features a sleek design that will enhance any room.",
-      "price": 799,
+      "price": "coming soon",
       "size": "Large",
       "sizes": {
         "XS": 0,
@@ -413,7 +413,7 @@
       "title": "Bohemian Cushion",
       "description": "A bohemian cushion that adds a free-spirited vibe to your space.",
       "full_description": "This bohemian cushion features a vibrant design and is made from durable materials. Its rich colors and intricate patterns make it a standout piece in any room.",
-      "price": 1099,
+      "price": "coming soon",
       "size": "Medium",
       "sizes": {
         "XS": 0,

@@ -26,8 +26,8 @@ const Navbar = () => {
               </a>
             </li> */}
             <li className="nav-item">
-              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="/carpet/">
-                Carpet
+              <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="/dhurrie/">
+                Dhurrie
               </a>
             </li>
             {/* <li className="nav-item dropdown">

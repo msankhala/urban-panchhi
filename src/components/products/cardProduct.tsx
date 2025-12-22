@@ -6,6 +6,7 @@ interface Props {
   title: string;
   description: string;
   price: number;
+  price_before_discount: number;
   color: string;
   colors: string[];
   position: string;
@@ -17,6 +18,7 @@ export default function CardProduct({
   title,
   description,
   price,
+  price_before_discount,
   color,
   colors,
   position
@@ -51,13 +53,33 @@ export default function CardProduct({
             
             {(price) && 
               <h4 className="mb-0 text-lg mt-1 mb-3">
-                ${price.toLocaleString()}
+                ₹{price.toLocaleString()}
+              </h4>
+            }
+            {(price_before_discount) && 
+              <h4 className="mb-0 text-lg mt-1 mb-3">
+                <span className="text-muted text-decoration-line-through">₹{price_before_discount.toLocaleString()}</span>
               </h4>
             }
 
             {!(description || colors || color) &&
               <a href="#" className="font-weight-normal text-body text-sm">Shop Now</a>
             }
+
+              <div className="d-flex justify-content-center mb-3">
+                <a
+                  className="btn btn-success"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href={
+                    `https://wa.me/918209625303?text=${encodeURIComponent(
+                      `Hi, I want to buy: ${title}\n${typeof window !== 'undefined' ? window.location.origin + '/cushion' : 'https://urbanpanchhi.com/cushion'}`
+                    )}`
+                  }
+                >
+                  Buy Now
+                </a>
+              </div>
           </div>
         </a>
       </div>

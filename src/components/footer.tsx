@@ -40,9 +40,9 @@ export default function Footer() {
               </li>
               <li className="nav-item">
                 <a
-                  href=""
+                  href="/contact-us"
                   className="nav-link text-sm pe-0 text-muted"
-                  target="_blank"
+                  // target="_blank"
                 >
                   Contact Us
                 </a>
